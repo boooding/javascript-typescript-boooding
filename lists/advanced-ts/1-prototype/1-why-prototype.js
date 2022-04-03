@@ -25,3 +25,5 @@ QQ_boooding.show();
  * 2. 所有 QQuser 对象【也叫实例】都有相同的好友属性，好友属性用 commonfriends 英文 表示，所有 QQUser对象都有相同的 show 方法。但我们发现每一个 QQuser对象【也叫 QQuser实例】都单独分配一个 commonfriends 属性空间和 show 方法空间，导致大量的空间浪费
  * 3. 答案：使用原型解决所有实例上的方法 还有所有实例上的共同属性都可以放到原型上去定义
  */
+
+console.log()

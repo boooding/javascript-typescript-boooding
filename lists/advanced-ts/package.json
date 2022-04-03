@@ -1,0 +1,20 @@
+{
+  "name": "advanced-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "parcel-bundler": "^1.12.5",
+    "typescript": "^4.2.4"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "scripts": {
+    "startparcel": "parcel ./src/index.html",
+    "start": "nodemon --watch ./src -e ts --exec ts-node ./src/app.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

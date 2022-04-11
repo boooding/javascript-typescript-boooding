@@ -19,12 +19,20 @@
 1. js =>  ast
 2. ast => （ignation）字节码 bytecode
 
-（环境不一样 cpu架构不一样 机器指令不一样 所以要先转成bytecode ）
+（环境不一样 cpu架构不一样 机器指令不 一样 所以要先转成bytecode ）
 
 3. turbofan => MachineCode 优化的机器码
 4. Deoptimization
 
 ![image-20220409085752126](3-js-engine.assets/image-20220409085752126.png)
+
+
+
+![image-20220409204011727](3-js-engine.assets/image-20220409204011727.png)
+
+#### js in v8
+
+
 
 
 
